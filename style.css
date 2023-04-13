@@ -4,4 +4,57 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Montserrat', 'sans-serif';
 }
+
+header{
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 100vw;
+    height: 100px;
+}
+.logo{
+    margin-left: 150px;
+    display: inline-block;
+    width: 245px;
+    height: 45px;
+    background-image: url(imagens/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header > nav{
+    
+    float: right;
+}
+nav >ul {
+    margin-top: 25px;
+    margin-right: 280px;
+    list-style-type: none; /*essa propriedade faz com que as decoracoes de bolinhas saian */
+}
+li{
+   
+    
+    text-transform: uppercase;
+    display: inline-block;
+}
+li > a{
+    margin-left: 80px;
+    font-size: 14px;
+    color: #777777;
+    text-decoration: none;
+}
+
+.container{
+   margin-left: 120px;
+}
+ .single{
+    float: left;
+    width: calc(90% / 6);
+ }
+ .img{
+    width: 100%;
+    padding-top: 100%;
+    background-color: #ccc;
+    border: 5px solid white;
+ }
