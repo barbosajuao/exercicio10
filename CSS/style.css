@@ -1,0 +1,83 @@
+*{ /* aqui estou resetando as configuracoes */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'sans-serif'; /* relenbrando que aqui estou usando a fonte q importei do google */
+}
+.clear {/*aqui estou limpando as flutuacao*/
+    clear: both;
+}
+
+html,body{
+    height: 100%;
+}
+header{
+    padding-top: 30px;
+    
+}
+header > .container{
+    max-width: 1400px;
+    width: 100%;
+    margin:0 auto;
+   
+}
+
+.logo{
+    float: left;
+    width: 300px;
+    height: 40px;
+    background-image: url(../imagens/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}   /*aqui e toda a configuracao da logo*/
+
+nav{
+    float: right;
+    margin-top: 18px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+
+nav > ul {
+    list-style-type: none; /* aqui eu tirei a decoracao de bolinhas */
+    
+}
+
+nav > ul > li{
+    float: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #9a9898;
+    font-weight: bold;
+}
+.mosaico .container{
+    max-width: 98vw;
+    margin: auto;
+}
+.mosaico-single{
+    float: left;
+    width: calc(100% / 6);
+}
+.img-mosaico{
+    width: 100%;
+    padding-top: 100%;
+    background-color: #ccc;
+    border: 5px solid white;
+}
+section.servicos > .container01{
+    margin: auto;
+   max-width: 300px;
+   display: flex;
+   
+    
+}
+
+
+
+
+
