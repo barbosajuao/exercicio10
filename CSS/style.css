@@ -23,17 +23,19 @@ header > .container{
 }
 
 .logo{
-    float: left;
+    position: relative;
     width: 300px;
     height: 40px;
     background-image: url(../imagens/logo.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-left: 20px;
+    margin-right: 0px;
 }   /*aqui e toda a configuracao da logo*/
 
 nav{
     float: right;
-    margin-top: 18px;
+    margin-top: -18px;
     margin-right: 200px;
     margin-bottom: 20px;
 }
@@ -41,6 +43,12 @@ nav{
 nav > ul {
     list-style-type: none; /* aqui eu tirei a decoracao de bolinhas */
     
+}
+li:hover{/*aqui estou usando a opcao de efeito quando o mause passar por cima do objeto*/
+ background-color:  #9a9898;
+}
+a:hover{
+    color: white;
 }
 
 nav > ul > li{
@@ -103,6 +111,45 @@ section.servicos > .container01{
 .box-servico > h2{
     color: white;
 }
+.perfil-container > .container{
+    padding-top: 30px;
+    max-width: 1050px;
+    margin: auto;
+}
+section .perfil-waper{
+    padding-top: 50%;
+    position: relative;
+}
+section .perfil-waper2{
+    position:absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.img-perfil{
+    width: 50%;
+    height: 100%;
+    background-image: url(../imagens/img_perfil.png);
+    background-size: 100% 100%;
+}
+.text{
+    padding: 80px;
+    width: 60%;
+    text-align: justify;
+}    
+
+.text >h2{
+    color: #698293;
+    margin-bottom: 20px;
+    
+}
+.text > p{
+    font-weight: bolder;
+}
+
+
 
 
 
