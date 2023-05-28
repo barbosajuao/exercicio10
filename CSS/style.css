@@ -120,7 +120,7 @@ section .perfil-waper{
     padding-top: 50%;
     position: relative;
 }
-section .perfil-waper2{
+.perfil-waper2{
     position:absolute;
     left: 0;
     top: 0;
@@ -148,6 +148,77 @@ section .perfil-waper2{
 .text > p{
     font-weight: bolder;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1070px ){
+    nav{
+        float: right;
+        margin-top: -18px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+    }
+  
+}
+@media screen and (max-width: 970px ){
+    section.servicos > .container01{
+       flex-direction: column;
+
+}
+nav{
+    margin-right: 10px;
+}
+
+.box-servico:nth-last-of-type(1){
+    width: 70%;
+    padding: 30px 0;
+    background-color: #576975;
+}
+.box-servico:nth-last-of-type(2){
+    width: 80%;
+    padding: 60px 0;
+    background-color: #688293;
+}
+.box-servico:nth-last-of-type(3){
+    width: 70%;
+    padding: 30px 0;
+    background-color: #576975;
+}
+
+.perfil-container .perfil-waper2{
+    display: inline-block;
+    margin: auto;
+}
+
+.img-perfil{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    background-image: url(../imagens/img_perfil.png);
+    background-size: 100% 100%;
+}
+.text{
+    
+    width: 100%;
+    text-align: justify;
+}
+
+
+}
+
+
+    
+
+
+
 
 
 
