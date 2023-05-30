@@ -33,14 +33,21 @@ header > .container{
     margin-right: 0px;
 }   /*aqui e toda a configuracao da logo*/
 
-nav{
+.menu-mobile{
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-image: url(../imagens/menu-hamburguer.png);
+}
+
+.menu-desktop{
     float: right;
     margin-top: -18px;
     margin-right: 200px;
     margin-bottom: 20px;
 }
 
-nav > ul {
+.menu-desktop > ul {
     list-style-type: none; /* aqui eu tirei a decoracao de bolinhas */
     
 }
@@ -51,7 +58,7 @@ a:hover{
     color: white;
 }
 
-nav > ul > li{
+.menu-desktop > ul > li{
     float: left;
     font-size: 16px;
     text-transform: uppercase;
@@ -103,6 +110,8 @@ section.servicos > .container01{
     background-color: #576975;
 }
 
+
+
 .box-servico > p{
     text-align: justify;
     color: white;
@@ -148,6 +157,29 @@ section .perfil-waper{
 .text > p{
     font-weight: bolder;
 }
+.container-video{
+    max-width: 90vw;
+    margin: auto;
+}
+section .videos{
+    padding: 80px 0;
+}
+.box-video{
+    
+    float: left;
+    width: 33.3%;
+    padding-top: calc(33.3% * 0.6);
+}
+iframe{
+    margin-left: 90px;
+    margin-bottom: 30px;
+
+}
+/*.img-mosaico:nth-last-of-type(1){
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../imagens/0a19a53c652af72a128db3f23a08f40ef1002e52a390e368f53077f738b31b0df38772891c341e4c_rw_1920.jpg);
+}*/
 
 
 
@@ -160,7 +192,7 @@ section .perfil-waper{
 
 
 @media screen and (max-width: 1070px ){
-    nav{
+    .menu-desktop{
         float: right;
         margin-top: -18px;
         margin-right: 100px;
@@ -173,6 +205,9 @@ section .perfil-waper{
        flex-direction: column;
 
 }
+
+
+
 nav{
     margin-right: 10px;
 }
@@ -194,23 +229,85 @@ nav{
 }
 
 .perfil-container .perfil-waper2{
-    display: inline-block;
+    height: 600px;
+    text-align: center;
     margin: auto;
+    position: static;
+    display: inline-block;
+    
+    
 }
 
+.perfil-container .perfil-waper{
+    padding: 0px;
+}
+
+
 .img-perfil{
-    margin: auto;
-    width: 50%;
+    
+    width: 60%;
     height: 100%;
+    margin: auto;
     background-image: url(../imagens/img_perfil.png);
     background-size: 100% 100%;
+    
 }
 .text{
     
-    width: 100%;
+    width:100vw;
     text-align: justify;
 }
+@media screen and (max-width: 950px ){
+    .menu-mobile{
+       
+        width: 40px;
+        height: 40px;
+        background-image: url(../imagens/menu-hamburguer.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+       
+    }
+    .menu-mobile > ul{
+        z-index: 999;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        background-color: white;
+        display: none;
+    }
+    .menu-mobile > ul >li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+        float: right;
+        margin-top: -50px;
+    }
+    .logo{
+        width: 200px;
+        margin-left: 70px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
 
+}
+
+
+}
+@media screen and (max-width: 550px ){
+    .img-perfil{
+        margin: auto;
+        width: 70%;
+        height: 150%;
+        background-image: url(../imagens/img_perfil.png);
+        background-size: 100% 100%;
+    }
 
 }
 
