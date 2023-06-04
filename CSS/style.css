@@ -158,21 +158,30 @@ section .perfil-waper{
     font-weight: bolder;
 }
 .container-video{
-    max-width: 90vw;
     margin: auto;
+    max-width: 90vw;
+    
 }
 section .videos{
+    width: 100%;
     padding: 80px 0;
+    margin: auto;
 }
 .box-video{
     
     float: left;
     width: 33.3%;
     padding-top: calc(33.3% * 0.6);
+    position: relative;
+    border: 5px solid white;
+
 }
 iframe{
-    margin-left: 90px;
-    margin-bottom: 30px;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    height: 100%;
 
 }
 /*.img-mosaico:nth-last-of-type(1){
@@ -229,7 +238,7 @@ nav{
 }
 
 .perfil-container .perfil-waper2{
-    height: 600px;
+    height:1000px;
     text-align: center;
     margin: auto;
     position: static;
@@ -246,17 +255,34 @@ nav{
 .img-perfil{
     
     width: 60%;
-    height: 100%;
+    height: 50%;
     margin: auto;
     background-image: url(../imagens/img_perfil.png);
     background-size: 100% 100%;
     
 }
 .text{
-    
+    padding-top: 70px;
+    padding-bottom: 50px;
     width:100vw;
     text-align: justify;
 }
+.box-video{
+    width: 100%;
+    padding-top: calc(100% * 0.6);
+    position: relative;
+    border: 5px solid white;
+
+}
+iframe{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+
 @media screen and (max-width: 950px ){
     .menu-mobile{
        
@@ -304,7 +330,7 @@ nav{
     .img-perfil{
         margin: auto;
         width: 70%;
-        height: 150%;
+       
         background-image: url(../imagens/img_perfil.png);
         background-size: 100% 100%;
     }
