@@ -70,7 +70,7 @@ a {
     color: #9a9898;
     font-weight: bold;
 }
-.mosaico .container{
+ .container{
     max-width: 98vw;
     margin: auto;
 }
@@ -158,6 +158,7 @@ section .perfil-waper{
     font-weight: bolder;
 }
 .container-video{
+    height: 500px;
     margin: auto;
     max-width: 90vw;
     
@@ -189,7 +190,133 @@ iframe{
     background-size: 100% 100%;
     background-image: url(../imagens/0a19a53c652af72a128db3f23a08f40ef1002e52a390e368f53077f738b31b0df38772891c341e4c_rw_1920.jpg);
 }*/
+.tratamentos .container{
+    max-width: 1600px;
+}
+.tratamento-container{
+    float: left;
+    width: 33.3%;
+}
+.tratamento-single{
+    padding: 20px;
+    text-align: center;
+    text-align: justify;
+}
+.tratamento-single > h2{
+    font-size: 18px;
+    color: #737373;
+}
+.tratamento-single >p{
+    padding: 10px 0px;
+    font-size: 13px;
+    color: #b4b4b4;
+   
+}
+.tratamentos .container > h2{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+   
 
+}
+.tratamentos{
+    background-color: #cccccc50;
+}
+.depoimentos{
+    width: 100vw;
+    height: 300px;
+    
+}
+.depoimentos > h2{
+    padding-top: 30px;
+    text-align: center;
+    color: #2a43ff94;
+}
+.depoimentos-single > p{
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    max-width: 550px;
+    color:  #818080;;
+}
+.nome-depoimento{
+    width: 100vw;
+}
+.img-depoimento{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-image: url(../imagens/depoimento1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -50px;
+}
+.nome-depoimento > p{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 80px;
+    color: #576975;
+}
+.instagram{
+    width: 100vw;
+    height: 500px;
+   
+}
+.logo-insta{
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagens/inst.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    
+}
+.perfil-insta{
+    padding-top: 35px;
+    width: 100%;
+    height: 180px;
+    background-color:  #93abba;
+}
+.perfil-insta > p{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.img-insta{
+    width: 100%;
+    height: 180px;
+    
+    
+}
+.img01{
+    float: left;
+    width: calc(100% / 9);
+    height: 100%;
+    background-color: #727577ad;
+    border: solid 1px white;
+
+}
+.perfil-facebook{
+    padding-top: 30px;
+    width: 100%;
+    height: 180px;
+    background-color:#556977;
+}
+.logo-face{
+    
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagens/fb.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+.perfil-facebook > p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
 
 
 
