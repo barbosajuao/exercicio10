@@ -317,6 +317,78 @@ iframe{
     text-align: center;
     margin-top: 10px;
 }
+.img08{
+    float: left;
+    width: calc(100% / 9);
+    height: 100%;
+    background-color: #727577ad;
+    border: solid 1px white;
+
+}
+.img09{
+    float: left;
+    width: calc(100% / 9);
+    height: 100%;
+    background-color: #727577ad;
+    border: solid 1px white;
+
+}
+.img01{
+    float: left;
+    width: calc(100% / 9);
+    height: 100%;
+    background-color: #727577ad;
+    border: solid 1px white;
+
+}
+.img02{
+    float: left;
+    width: calc(100% / 9);
+    height: 100%;
+    background-color: #727577ad;
+    border: solid 1px white;
+
+}
+.img03{
+    float: left;
+    width: calc(100% / 9);
+    height: 100%;
+    background-color: #727577ad;
+    border: solid 1px white;
+
+}
+.img04{
+    float: left;
+    width: calc(100% / 9);
+    height: 100%;
+    background-color: #727577ad;
+    border: solid 1px white;
+
+}
+.img05{
+    float: left;
+    width: calc(100% / 9);
+    height: 100%;
+    background-color: #727577ad;
+    border: solid 1px white;
+
+}
+.img06{
+    float: left;
+    width: calc(100% / 9);
+    height: 100%;
+    background-color: #727577ad;
+    border: solid 1px white;
+
+}
+.img07{
+    float: left;
+    width: calc(100% / 9);
+    height: 100%;
+    background-color: #727577ad;
+    border: solid 1px white;
+
+}
 
 
 
@@ -448,12 +520,181 @@ iframe{
         margin-top: -10px;
         margin-bottom: 10px;
     }
+    .img01{
+        float: left;
+        width: calc(100% / 7);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img02{
+        float: left;
+        width: calc(100% / 7);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img03{
+        float: left;
+        width: calc(100% / 7);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img04{
+        float: left;
+        width: calc(100% / 7);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img05{
+        float: left;
+        width: calc(100% / 7);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img06{
+        float: left;
+        width: calc(100% / 7);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img07{
+        float: left;
+        width: calc(100% / 7);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img08{
+        display: none;
+    }
+    .img09{
+        display: none;
+    }
 
 }
 
 
 }
+@media screen and (max-width: 750px ){
+    
+    .img01{
+        float: left;
+        width: calc(100% / 6);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img02{
+        float: left;
+        width: calc(100% / 6);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img03{
+        float: left;
+        width: calc(100% / 6);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img04{
+        float: left;
+        width: calc(100% / 6);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img05{
+        float: left;
+        width: calc(100% / 6);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img06{
+        float: left;
+        width: calc(100% / 6);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img07{
+        float: left;
+        width: calc(100% / 6);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+
+    .img07{
+        display: none;
+    }
+   
+}
+
+
+
 @media screen and (max-width: 550px ){
+    .img06{
+        display: none;
+    }
+    .img05{
+        display: none;
+    }
+    /*por enqanto essa foi a melhor forma que eu encontrei para poder alterar os tamanhos e retirar as que nao queria */
+    .img01{
+        float: left;
+        width: calc(100% / 4);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img02{
+        float: left;
+        width: calc(100% / 4);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img03{
+        float: left;
+        width: calc(100% / 4);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+    .img04{
+        float: left;
+        width: calc(100% / 4);
+        height: 100%;
+        background-color: #727577ad;
+        border: solid 1px white;
+    
+    }
+   
     .img-perfil{
         margin: auto;
         width: 70%;
