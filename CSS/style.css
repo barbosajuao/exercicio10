@@ -260,7 +260,7 @@ iframe{
 }
 .instagram{
     width: 100vw;
-    height: 500px;
+    height: 540px;
    
 }
 .logo-insta{
@@ -297,12 +297,7 @@ iframe{
     border: solid 1px white;
 
 }
-.perfil-facebook{
-    padding-top: 30px;
-    width: 100%;
-    height: 180px;
-    background-color:#556977;
-}
+
 .logo-face{
     
     width: 40px;
@@ -389,6 +384,143 @@ iframe{
     border: solid 1px white;
 
 }
+.perfil-facebook{
+    padding-top: 30px;
+    width: 100%;
+    height: 180px;
+    background-color:#556977;
+}
+.formulario{
+    width: 100vw;
+    background-color:#e6e6e67e; 
+    padding-top: 20px;
+}
+
+.formulario-container{
+   
+    width: 100%;
+    height: 500px;
+    max-width: 450px;
+    margin: auto;
+    
+    
+    
+}
+.formulario-container > h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #4a6d88;
+}
+span{
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #8e8c8c;
+}
+.w100 input{
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    padding-left: 9px;
+}
+.w50 input{
+    padding-left: 8px;
+    height: 35px;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.t1, .t2 {
+    display: inline-block;
+    width: 49%;
+    
+   
+
+}
+textarea{
+    height: 150px;
+    width: 100%;
+    line-height: 35px;
+    padding-left: 9px;
+    resize: none;
+    border: 1px solid #dadada;
+}
+input::placeholder{
+    color:  #d3d3d3;;
+}
+input{
+    margin-bottom: 15px;
+    border: 1px solid #dadada;
+}
+#botao{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    
+}
+.submit{
+   margin-top: 5px;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    background-color: #566a7893;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    
+}
+.primeiro{
+    width: 100vw;
+    height: 200px;
+    background-color:#556977; ;
+    display: inline block;
+    padding-top:50px;
+    text-align: center;
+}
+footer > div {
+    width: 200px;
+    display: inline-block;
+    margin: auto;
+    
+}
+.horario{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+.fone{
+    margin-right: 100px;
+    color: white;
+}
+.endereco{
+    margin-left: 100px;
+    color: white;
+}
+.fone > h2 {
+    margin-bottom: 10px;
+}
+.horario > h2 {
+    margin-bottom: 10px;
+}
+.endereco > h2 {
+    margin-bottom: 10px;
+}
+footer.copy{
+    width: 100vw;
+    height: 100px;
+    background-color: #212a32;
+   padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+.copy > h2{
+    font-size: 16px;
+}
+
+
+
+
 
 
 
@@ -701,6 +833,9 @@ iframe{
        
         background-image: url(../imagens/img_perfil.png);
         background-size: 100% 100%;
+    }
+    .t1, .t2{
+        width: 100%;
     }
 
 }
